@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+:root{
+    --font-family-regular:'Yeseva One', cursive;
+    font-size: 14px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    width: 60px;
+    
+}
+.cta li, a{
+  font-family: 'Yeseva One', cursive;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.cta a, button{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    padding: 10px 4px;
+    margin: auto 0;
+    outline:none;
+    border-radius: 12px;
+    border:#34495E ;
+    text-align: center;
+    background-color: rgb(65, 92, 118);
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    padding: 30px 10%;
+    background-color: rgb(39, 55, 70) ;
+
+}  
+.navbar__links{
+ list-style: none;
+}
+
+.navbar__links li {
+display: inline-block;
+padding: 0px 20px;
+}
+.navbar__links li a {
+    transition: all 0.3s ease 0s;
+}
+.navbar__links li a:hover{
+    color: #0088a9;
+
+}
+
+.cta a:hover{
+    color: #0088a9;
+}
+
+.cta button{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.cta{
+    transition: all 0.3s ease 0s;
+}
+body{
+    background: linear-gradient(60deg, rgb(8, 124, 124), rgb(22, 194, 237));
+}
+.login-information{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "Yeseva One", cursive;
+
+}
+
+.login-id{
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    
+}
+.generic-prompt{
+  margin: 15px 15px;
+}
+.login-id input{
+    padding: 6px 0px;
+    margin: 4px;
+    border-radius: 2px;
+}
+.function-password{
+  
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+ 
+}
+.function-password input{
+    padding: 6px 0px;
+    margin: 4px;
+    border-radius: 4px;
+    margin-bottom: 9px;
+}
